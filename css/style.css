@@ -1,0 +1,14 @@
+body{background:#eef2f6;color:#1e293b;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.sidebar{width:240px;background:#0b132b;color:#fff;display:flex;flex-direction:column;flex-shrink:0}
+.brand{border-bottom:1px solid rgba(255,255,255,.05)}
+.menu{padding:10px 0}
+.menu a,.logout a{display:flex;gap:12px;align-items:center;padding:11px 20px;color:#94a3b8;text-decoration:none}
+.menu a:hover,.logout a:hover{background:#1c2541;color:#fff}
+.main-area{min-width:0}
+.topbar{background:#fff;border-bottom:1px solid #e2e8f0;padding:14px 24px}
+.content{padding:24px}
+.card{border:1px solid #e2e8f0;box-shadow:0 2px 8px rgba(15,23,42,.03)}
+.stat{font-size:1.7rem;font-weight:700}
+.table thead th{white-space:nowrap;background:#f8fafc}
+.badge-pill{border-radius:50rem}
+@media(max-width:800px){.sidebar{width:70px}.brand small,.menu a{font-size:0}.menu a i{font-size:1.1rem}.brand h3{font-size:1rem}.logout a{font-size:0}.logout i{font-size:1.1rem}}
